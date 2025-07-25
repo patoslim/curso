@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+}
+
+header a {
+    margin: 20px 0 0 20px;
+    width: 5%;
+}
+
+header a img {
+    width: 100%;
+}
+
+nav {
+    margin-top: 30px;
+    margin-left: 67%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: flex;
+    margin-top: 0px;
+}
+
+section {
+    display: flex;
+    margin-right: 40px;
+}
+
+.dsc {
+    width: 54%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 15%;
+}
+
+.dsc h1 {
+    margin-left: 7%;
+    margin-bottom: -6%;
+}
+
+.dsc p {
+    margin: 7%;
+}
+
+.dsc button{
+    margin: 0 0 0 30%;
+    border: none;
+    width: 40%;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.cdds {
+    width: 46%;
+    margin-top: 5%;
+}
+
+.cdd {
+    height: 270px;
+    width: 270px;
+    color: white;
+    margin: 20px;
+}
+
+.db {
+    background-image: url(../imagens/dubai.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sg {
+    background-image: url(../imagens/singapura.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.rj {
+    background-image: url(../imagens/rj.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.ny {
+    background-image: url(../imagens/ny.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+
+.cdd p, h5 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.cdd:hover {
+    transform: translateY(-15px);
+}
+
+
+.cdd {
+    transition: 0.6s;
+}
