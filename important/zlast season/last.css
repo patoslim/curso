@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    cursor: default;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    height: 37px;
+    position: relative;
+}
+
+.logoH {
+    height: 37px;
+    position: absolute;
+    transition: 0.6s;
+    opacity: 0;
+}
+
+.logoH:hover {
+    opacity: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-image: linear-gradient(to right, rgb(0,0,0), rgb(0,100,0));
+    padding: 20px 0 0 20px;
+    color: white;
+    width: 100%;
+    position: fixed;
+}
+
+
+nav {
+    display: flex;
+    margin-right: 20px;
+}
+
+nav a {
+    margin: -7px;
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-right: 25px;
+    transition: 0.6s;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    background-color: rgb(0, 200, 0);
+    transform: scale(1.1);
+}
+
+.turn {
+    background-image: url(img/home1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;
+    height: 100vh;    
+}
+
+b {
+    color: rgb(4, 150, 4);
+}
+
+.turn h5{
+    color: white;
+    font-size: 20px;
+}
+
+.turn h1 {
+    color: white;
+}
+
+.turn div {
+    margin-left: 8%;
+    width: 60%;
+    font-size: 40px;
+}
+
+.turn button {
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0,100,0);
+    background: linear-gradient(130deg, rgb(0,100,0) 93%, transparent 90%);
+    cursor: pointer;
+    height: 15%;
+    width: 13%;
+    transition: 0.6s;
+}
+
+.turn button:hover {
+    color: rgb(0,100,0);
+    transform: scale(1.1);
+    background-color: white;
+    background: linear-gradient(130deg, rgb(255,255,255) 93%, transparent 90%);
+}
+
+.sobre {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.sobre img {
+    width: 100%;
+    border-radius: 10%;
+    border: 10px solid rgb(0,100,0);
+}
+
+
+.sobre .simg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    margin: 60px 0 60px 40px;
+}
+
+.sobre .sdesc {
+    margin: 60px 40px 60px 70px;  
+    width: 40%;
+}
+
+.sdesc h1 {
+    font-size: 40px;
+}
+
+.sdesc h4 {
+    color: rgb(0, 200, 0);
+}
+
+.sdesc i {
+    color: rgb(0, 200, 0);
+}
+
+.sdesc h5 {
+    font-size: 17px;
+    margin-bottom: 9px;
+}
+
+.sdesc p {
+    font-size: 12px;
+    color: gray;
+}
+
+.cont {
+    display: flex;
+    width: 120%;
+}
+
+.bx {
+    width: 120%;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,45 @@
+#formTitle {grid-area: ftit;}
+#formName {grid-area: fnam;}
+#formMail {grid-area: fmai;}
+#formBtn {grid-area: fbtn;}
+
+.menu {
+    display: flex;
+    justify-content: right;
+}
+
+main {
+    display: grid;
+}
+
+.articles {
+    display: flex;
+}
+
+
+.newsletter {
+    display: grid ; 
+    grid-template-areas: 
+    'ftit ftit'
+    'fnam fmai'
+    'fbtn fbtn';
+}
+
+footer {
+    display: flex;
+}
+
+@media (max-width:690px) {
+    .articles {
+        display: block;
+    }
+
+    .newsletter {
+        display: grid;
+        grid-template-areas: 
+        'ftit'
+        'fnam'
+        'fmai'
+        'fbtn';
+    }
+}
